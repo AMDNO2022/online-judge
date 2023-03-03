@@ -1,0 +1,1 @@
+HMSET 1001 qd "test" qi "1\n1\n" qo "1\n"
