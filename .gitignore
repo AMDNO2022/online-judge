@@ -1,0 +1,13 @@
+judge-front/node_modules
+judge-front/test
+
+judge-server/.idea
+judge-server/out
+judge-server/temp_execute_files
+judge-server/*.iml
+
+judge-service/.idea
+judge-service/target
+
+.idea
+
