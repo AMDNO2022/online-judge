@@ -8,6 +8,7 @@ judge-server/*.iml
 
 judge-service/.idea
 judge-service/target
+judge-service/package-lock.json
 
 .idea
 
