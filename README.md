@@ -9,32 +9,64 @@
 基于Vue3 Element-ui的前端；
 
 基于Redis的数据缓存策略。
-
-本篇README.md面向开发者
  
 #这个项目将在四月内完成，现在你可以不用往下看了
  
 ## 目录
 
-- [架构](#架构)
-- [部署](#部署)
-- [文件目录说明](#文件目录说明)
+- [启动](#启动)
 - [作者](#作者)
 - [鸣谢](#鸣谢)
 
+### 启动
 
-### 架构 
+以下内容面向开发者
 
-### 部署
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+请运行以下命令以确保你安装了有效版本的 Java \ Maven \ vue3 \ MySQL \ Redis：
 
 ```sh
-git clone https://github.com/shaojintian/Best_README_template.git
+java -version
+mvn -v
+vue -V
+mysql -V
+redis-server -v
+```
+
+1. 克隆
+
+```sh
+git clone https://github.com/AMDNO2022/online-judge.git
+```
+
+2. 启动判题端
+
+配置你的文件
+```sh
+vim judge-server/src/JudgeServerProperties.properties
+```
+```sh
+java judge-server/src/JudgeServerMain.java
+java judge-server/src/JudgeServerMain
+```
+
+3. 启动后端
+```sh
+cd judge-service
+nohup mvn spring-boot:run &
+```
+
+4.启动前端
+```sh
+cd online-judge/front
+npm install
+nohup npm run dev &
 ```
 
 ### 作者
 
 Wu F.Y
 
+### 等待实现的功能
+
+
+### 已知的问题
