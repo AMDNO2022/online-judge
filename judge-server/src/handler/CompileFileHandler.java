@@ -1,7 +1,7 @@
 package handler;
 
 /**
- * @author:        usingvc6
+ * @author:        AMDNO2022
  * @description:   编译文件（仅支持java）
  */
 public class CompileFileHandler {

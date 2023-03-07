@@ -7,7 +7,7 @@ import java.net.Socket;
 import java.util.concurrent.*;
 
 /**
- * @author:        usingvc6
+ * @author:        AMDNO2022
  * @description:   Main function
  */
 public class JudgeServerMain {

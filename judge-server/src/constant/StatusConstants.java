@@ -1,7 +1,7 @@
 package constant;
 
 /**
- * @author: usingvc6
+ * @author: AMDNO2022
  * @description: 保存运行结果的常量
  */
 public final class StatusConstants {
