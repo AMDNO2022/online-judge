@@ -10,13 +10,14 @@
 
 基于Redis的数据缓存策略。
  
-#这个项目将在四月内完成，现在你可以不用往下看了
+#这个项目将在本月完成
  
 ## 目录
 
 - [启动](#启动)
 - [作者](#作者)
-- [鸣谢](#鸣谢)
+- [等待加入的功能](#待实现)
+- [已知的问题](#已知的问题)
 
 ### 启动
 
@@ -44,12 +45,19 @@ git clone https://github.com/AMDNO2022/online-judge.git
 ```sh
 vim judge-server/src/JudgeServerProperties.properties
 ```
+启动
 ```sh
 java judge-server/src/JudgeServerMain.java
 java judge-server/src/JudgeServerMain
 ```
 
-3. 启动后端
+3. 启动后端 
+
+配置你的文件
+```sh
+vim judge-service/src/main/resources/application.properties
+```
+启动
 ```sh
 cd judge-service
 nohup mvn spring-boot:run &
@@ -57,7 +65,7 @@ nohup mvn spring-boot:run &
 
 4.启动前端
 ```sh
-cd online-judge/front
+cd ../judge-front
 npm install
 nohup npm run dev &
 ```
@@ -66,7 +74,13 @@ nohup npm run dev &
 
 Wu F.Y
 
-### 等待实现的功能
-
+### 待实现
+1. 后端实现
+2. 前后端接通
+3. redis缓存题库的策略
+4. Record页面
+5. 查看个人主页
 
 ### 已知的问题
+1. 分辨率缩小导致页面不能铺满屏幕
+
