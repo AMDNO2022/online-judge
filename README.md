@@ -1,6 +1,6 @@
 # A online-judge website. (Spring Boot/Vue/Mysql/Redis)
 
-一个使用Java开发的轻量级分布式Online Judge网站，支持提交Java代码解决算法问题并返回代码运行的不同结果，包含以下部分：
+一个使用Java开发的Online Judge网站，支持提交Java代码解决算法问题并返回代码运行的不同结果，包含以下部分：
 
 基于Socket、消息队列与线程池、计时线程的判题端；
 
@@ -9,15 +9,27 @@
 基于Vue3 Element-ui的前端；
 
 基于Redis的数据缓存策略。
- 
-#这个项目将在本月完成
- 
+
+这个项目将在本月完成
+
+-------------------
+
+![image](img/architecture.png)
+
+![image](img/screenshot_2.png)
+
+------------------
+
 ## 目录
 
 - [启动](#启动)
 - [作者](#作者)
 - [等待加入的功能](#待实现)
 - [已知的问题](#已知的问题)
+
+
+
+
 
 ### 启动
 
