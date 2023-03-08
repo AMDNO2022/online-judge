@@ -10,7 +10,7 @@ import vo.QuestionVO;
 import vo.RecordVO;
 
 /**
- * @author:        usingvc6
+ * @author:        AMDNO2022
  * @description:   消费者
  */
 

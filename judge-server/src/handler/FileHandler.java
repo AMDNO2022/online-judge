@@ -8,7 +8,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 
 /**
- * @author:        usingvc6
+ * @author:        AMDNO2022
  * @description:   一些文件读写的操作
  */
 public class FileHandler {

@@ -7,7 +7,7 @@ import java.io.*;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author:        usingvc6
+ * @author:        AMDNO2022
  * @description:   执行文件（仅支持java）
  */
 public class ExecuteFileHandler {

@@ -1,7 +1,7 @@
 package vo;
 
 /**
- * @author: usingvc6
+ * @author: AMDNO2022
  * @description: record value object
  */
 public class RecordVO {

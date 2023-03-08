@@ -7,7 +7,7 @@ import vo.QuestionVO;
 import java.util.*;
 
 /**
- * @author: usingvc6
+ * @author: AMDNO2022
  * @description: question data access object
  */
 public class QuestionDAO{

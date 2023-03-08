@@ -1,7 +1,7 @@
 package vo;
 
 /**
- * @author:        usingvc6
+ * @author:        AMDNO2022
  * @description:   Question value object
  */
 public class QuestionVO {

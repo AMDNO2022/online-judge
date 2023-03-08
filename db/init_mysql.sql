@@ -32,13 +32,13 @@ INSERT INTO user (user_id, username, account, password)
 VALUES( 100001, 'A d nn i n', 'admin', SHA1('123456'));
 
 INSERT INTO question ( question_id, question_name, question_description, question_input, question_output, question_test_input, question_test_output)
-VALUES( 752001, '两数之和', '写一个函数，输入 a, b， 输出a+b', '1 2\n', '3\n', '12345 54321\n', '66666\n');
+VALUES( 752001, '两数之和', '写一个函数，输入 a, b， 输出a+b\n', '1 2\n', '3\n', '12345 54321\n', '66666\n');
 
 INSERT INTO question ( question_id, question_name, question_description, question_input, question_output, question_test_input, question_test_output)
 VALUES( 752002, '两数之和2', '写一个函数，输入 a, b， 输出a+b，需要考虑大数。', '2100000000 2100000000\n', '4200000000\n', '210000000021000000002100000000 210000000021000000002100000000\n', '420000000042000000004200000000\n');
 
 INSERT INTO question ( question_id, question_name, question_description, question_input, question_output, question_test_input, question_test_output)
-VALUES( 752003, '斐波那契数列', '写一个函数，输入 n ，求斐波那契（Fibonacci）数列的第 n 项（即 F(N)）。斐波那契数列的定义如下：\n\nF(0) = 0,   F(1) = 1\nF(N) = F(N - 1) + F(N - 2), 其中 N > 1.\n斐波那契数列由 0 和 1 开始，之后的斐波那契数就是由之前的两数相加而得出。\n\n答案需要取模 1e9+7（1000000007），如计算初始结果为：1000000008，请返回 1。', '5\n', '5\n', '45\n', '134903163\n');
+VALUES( 752003, '斐波那契数列', '写一个函数，输入 n ，求斐波那契（Fibonacci）数列的第 n 项（即 F(N)）。斐波那契数列的定义如下：\n\nF(0) = 0,   F(1) = 1\nF(N) = F(N - 1) + F(N - 2), 其中 N > 1.\n斐波那契数列由 0 和 1 开始，之后的斐波那契数就是由之前的两数相加而得出。\n\n答案需要取模 1e9+7（1000000007），如计算初始结果为：1000000008，请返回 1。\n', '5\n', '5\n', '45\n', '134903163\n');
 
 INSERT INTO record ( record_id, user_id, question_id, status, language, code )
 VALUES( 8383834, 100001, 752001, 1001, 1, 'hello world\n');

@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 /**
- * @author: usingvc6
+ * @author: AMDNO2022
  * @description: 保存一些常量，单例模式
  */
 public class LocalConstants {

@@ -35,7 +35,7 @@ const handleSelect = (key: string, keyPath: string[]) => {
 <style scoped>
 
 .top-sidebar{
-  height: 70vh;
+  height: 72vh;
 }
 .down-sidebar{
   height: 10vh;

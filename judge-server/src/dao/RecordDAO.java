@@ -8,7 +8,7 @@ import java.sql.Statement;
 import constant.LocalConstants;
 import vo.RecordVO;
 /**
- * @author:        usingvc6
+ * @author:        AMDNO2022
  * @description:   record data access object
  */
 public class RecordDAO {
