@@ -1,8 +1,9 @@
 create database online_judge;
+use online_judge;
 CREATE TABLE `user`(
 `user_id` INT UNSIGNED AUTO_INCREMENT PRIMARY KEY COMMENT '用户id',
 `username` VARCHAR(30) NOT NULL COMMENT '用户名',
-`account` VARCHAR(30) NOT NULL COMMENT '用于登录和标识的账号',
+`account` VARCHAR(30) NOT NULL unique COMMENT '用于登录和标识的账号',
 `password` VARCHAR(45) NOT NULL COMMENT '密码',
 `created_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '创建时间'
 );

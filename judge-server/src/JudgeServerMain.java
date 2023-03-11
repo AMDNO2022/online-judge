@@ -33,7 +33,6 @@ public class JudgeServerMain {
                 TaskRunnable taskRunnable = new TaskRunnable();
                 taskRunnable.setParam(content);
                 threadPoolExecutor.execute(taskRunnable);
-                break;
             }
         } catch (IOException e) {
             e.printStackTrace();

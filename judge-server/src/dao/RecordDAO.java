@@ -23,7 +23,6 @@ public class RecordDAO {
         Statement statement = con.createStatement();
         String sql = "update record set status = " + recordVO.getRecordStatus() + " where record_id = " + recordVO.getRecordId();
         statement.executeUpdate(sql);
-        System.out.println(sql);
         statement.close();
     }
     public void destory() throws Exception {
