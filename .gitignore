@@ -1,14 +1,19 @@
+
+judge-front/.vscode
 judge-front/node_modules
 judge-front/test
+judge-front/package-lock.json
 
 judge-server/.idea
+judge-server/.vscode
 judge-server/out
 judge-server/temp_execute_files
 judge-server/*.iml
 
 judge-service/.idea
+judge-service/.vscode
 judge-service/target
-judge-service/package-lock.json
+judge-front/package-lock.json
 
 .idea
 

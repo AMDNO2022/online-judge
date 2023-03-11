@@ -1,4 +1,4 @@
-package usingvc6.judgeservice;
+package amdno2022.judgeservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
